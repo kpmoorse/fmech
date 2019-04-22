@@ -1,0 +1,36 @@
+fmech Installation instructions 
+=========================================
+
+Requirements: 
+-------------
+
+- python v2.5 
+  http://www.python.org/
+
+- pyrex 0.9.6.4 
+  http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/
+
+- pyode-1.2.0-2
+  http://pyode.sourceforge.net/
+
+- cgkit-2.0.0alpha8 
+  http://cgkit.sourceforge.net/
+  Note, can be installed w/  INSTALL_CGKIT_LIGHT = True in the
+  config.cfg file.   
+
+
+Installation:
+-------------
+
+The package uses the Python distutils, so you can build it by calling
+
+  python setup.py build
+
+and install it by calling
+
+  python setup.py install
+
+which installs the package on your system. 
+See the "Installing Python Modules" manual inside your Python documentation 
+or at http://docs.python.org/inst/inst.html if you want to customize the
+build process or the target location.
